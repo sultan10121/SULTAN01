@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+  
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    box-shadow: 0 0 5px rgb(143, 143, 143);
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li
+{
+    display: inline-block;
+    margin-inline: 8px;
+}
+.cover {
+background: url(../assets/images/architect.jpg);
+height: 500px;
+background-size: contain;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center ;
+
+}
